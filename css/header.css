@@ -6,7 +6,7 @@ body {
 
 .header {
   z-index: 100;
-  overflow: hidden;
+  overflow: auto;
   background-color: white;
   padding: 20px 10px;
 }
@@ -35,7 +35,7 @@ body {
   margin-right: 3%;
 }
 
-.dropdown {
+.dropdowna {
   padding: 20px;
   font-family: 'Barlow', sans-serif;
   float: left;
@@ -47,7 +47,7 @@ body {
   overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.dropdowna .dropbtna {
   border: none;
   outline: none;
   color: black;
@@ -56,12 +56,12 @@ body {
   margin: 0;
 }
 
-.header a:hover, .dropbtn:hover {
+.header a:hover, .dropbtna:hover {
     color:  #daa520;
  
 }
 
-.dropdown-content2 {
+.dropdowna-contenta {
   margin-top: 1%;
   font-family: 'Barlow', sans-serif;
   display: none;
@@ -72,7 +72,7 @@ body {
   z-index: 9999;
 }
 
-.dropdown-content2 a {
+.dropdowna-contenta a {
   float: none;
   color: black;
   padding: 12px 16px;
@@ -81,11 +81,11 @@ body {
   text-align: left;
 }
 
-.dropdown-content2 a:hover {
+.dropdowna-contenta a:hover {
   background-color: white;
 }
 
-.dropdown:hover .dropdown-content2 {
+.dropdowna:hover .dropdowna-contenta{
   display: block;
 }
 
