@@ -1,0 +1,194 @@
+.container2 {
+    min-height: 100vh;
+    background-color: #131313;
+    padding-bottom: 10%;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+ 
+}
+
+.grid {
+  display: flex;
+  margin-right: auto;
+  width: 55%;
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.grid-block {
+  width: 33%;
+  padding: 1rem;
+}
+
+.image-grid {
+    transform: rotate(45deg);
+    text-align: center;
+}
+
+.tile .textbox {
+      transform: translate(0,-100%);
+      text-align: center;
+      position: absolute;
+      width: 33%;
+      height: 33%;
+}
+
+.hoverWork {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  position: absolute;                               
+  color: white; 
+  font-family: 'Cormorant SC', serif;
+  font-size: 1.7vw;
+  opacity: 0;
+  transform: rotate(-45deg) translate(-20%, -140%);
+}
+
+.hoverWork2 {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  position: absolute;                               
+  color: white; 
+  font-family: 'Cormorant SC', serif;
+  font-size: 1.7vw;
+  opacity: 0;
+  transform: rotate(-45deg) translate(-20%, -200%);
+}
+
+.image-grid .tile-link:hover .tile-img {
+  top: -1rem;
+  left: -1rem;
+}
+
+
+
+.image-grid .tile-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-transition-property: opacity, top, left, box-shadow;
+  transition-property: opacity, top, left, box-shadow;
+}
+
+.tile-link:hover {
+  display: block;
+}
+
+.tile-link:hover .tile-img {
+  opacity: 1;
+}
+
+.tile-link:hover .tile-img-link {
+  display: block;
+}
+
+.tile-link:hover .tile-img-link:hover .tile-img {
+  opacity: 0.5;
+}
+
+.tile-img {
+  border-radius: 25px;
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.125s;
+  transition-duration: 0.125s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+.tile-link:hover .tile-img1 {
+   -webkit-filter: brightness(.2);
+   filter: brightness(.2); 
+  box-shadow: 5px 5px rgba(0,0, 0, 0.4),
+    10px 10px rgba(0,0, 0, 0.3), 15px 15px rgba(0,0, 0, 0.2),
+    20px 20px rgba(0,0, 0, 0.1), 25px 25px rgba(0,0, 0, 0.05);
+}
+
+.tile-link:hover .hoverWork {
+  
+  opacity: 1;
+ -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.125s;
+  transition-duration: 0.125s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.tile-link:hover .hoverWork2 {
+  
+  opacity: 1;
+ -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.125s;
+  transition-duration: 0.125s;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.tile-link:hover .tile-img2 {
+   -webkit-filter: brightness(.3);
+   filter: brightness(.3); 
+  box-shadow: 5px 5px rgba(45, 186, 233, 0.4), 10px 10px rgba(45, 186, 233, 0.3),
+    15px 15px rgba(45, 186, 233, 0.2), 20px 20px rgba(45, 186, 233, 0.1),
+    25px 25px rgba(45, 186, 233, 0.05);
+}
+
+.tile-link:hover .tile-img3 {
+   -webkit-filter: brightness(.3);
+   filter: brightness(.3); 
+  box-shadow: 5px 5px rgba(255, 85, 71, 0.4),
+    10px 10px rgba(255, 85, 71, 0.3), 15px 15px rgba(255, 85, 71, 0.2),
+    20px 20px rgba(255, 85, 71, 0.1), 25px 25px rgba(255, 85, 71, 0.05);
+}
+
+.tile-link:hover .tile-img4 {
+   -webkit-filter: brightness(.3);
+   filter: brightness(.3); 
+  box-shadow: 5px 5px rgba(94, 150, 51, 0.4), 10px 10px rgba(94, 150, 51, 0.3),
+    15px 15px rgba(94, 150, 51, 0.2), 20px 20px rgba(94, 150, 51, 0.1),
+    25px 25px rgba(94, 150, 51, 0.05);
+}
+
+.tile-link:hover .tile-img5 {
+   -webkit-filter: brightness(.3);
+   filter: brightness(.3); 
+   box-shadow: 5px 5px rgba(255, 225, 0, 0.4),
+    10px 10px rgba(255, 225, 0, 0.3), 15px 15px rgba(255, 225, 0, 0.2),
+    20px 20px rgba(255, 225, 0, 0.1), 25px 25px rgba(255, 225, 0, 0.05);
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .grid-block {
+    width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+
+
+@media screen and (max-width: 400px) {
+  .grid-block {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+
+
+
+

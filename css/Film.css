@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.filmcontainer {
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+.hrdivider {
+  margin-top: 10%;
+  width: 90%;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.filmrow1 {
+  background-color: #131313;
+  padding-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+
+.filmrow {
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.filmrow1 .filmgif {
+margin-right: auto;
+margin-left: auto;
+
+}
+
+
+.filmrow .video {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  float: left;
+}
+
+.video iframe {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  aspect-ratio: 16 / 9;
+  width: 90%;
+
+}
+
+.filmrow .text {
+   float: left;
+  font-size: 1vw;
+  margin-top: -1%;
+  width: 40%;
+
+}
+
+.text .textcenter {
+  color: #3B3B3B;
+  margin-top: 10%;
+  width: 100%;
+  height: 80%;
+  margin-bottom: 10%;
+}
+
+.filmrow .title {
+  padding-left: 10%;
+  font-size: 2vw;
+}
+
+
+.filmrow .subheading {
+  padding-left: 10%;
+  font-size: 1.3vw;
+}
+
+.filmrow .role {
+  color: #3B3B3B;
+  padding-left: 10%;
+  font-size: 1vw;
+}
+
+
+.filmrow .description {
+  color: #3B3B3B;
+  padding-left: 10%;
+  font-size: 1vw;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .filmrow .video {
+      width: 100%;
+
+  }
+
+  .filmrow .text {
+    width: 100%;
+
+  }
+
+
+
+}

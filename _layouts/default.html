@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{{ page.title }}</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&family=Cormorant:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&family=Cormorant:wght@300&family=Questrial&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Forum&family=Questrial&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+}
+
+.header {
+  z-index: 100;
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.header a {
+  font-family: 'Barlow', sans-serif;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-family: 'Cormorant SC', serif;
+  margin-left: 5%;
+  font-size: 30px;
+}
+
+
+.header-right {
+  float: right;
+  margin-right: 3%;
+}
+
+.dropdown {
+  padding: 20px;
+  font-family: 'Barlow', sans-serif;
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.header a:hover, .dropbtn:hover {
+    color:  #daa520;
+ 
+}
+
+.dropdown-content2 {
+  margin-top: 1%;
+  font-family: 'Barlow', sans-serif;
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+
+
+footer {
+    font-family: 'Roboto', sans-serif;
+   background-color: #131313;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+}
+
+footer .icon {
+  height: 50pt;
+  font-size: 1em;
+  padding-bottom: 1%;
+  width: 20%;
+  float: right;
+  max-height: 10%;
+}
+
+footer .iconcontainer {
+  margin-top: 5pt;
+  float: right;
+  height: 30%;
+  width: 100%;
+}
+
+
+
+footer .contact {
+  height: 50pt;
+  width: 80%;
+  float: left;
+  padding-bottom: 2%;
+}
+
+
+
+.footerstyle {
+   margin-top: 30pt;
+   margin-left: 10%;  
+   color: white;
+   font-size: 0.9em;
+}
+
+.symbol1 {
+  margin-left: 3%;
+}
+
+footer text {
+  white-space: nowrap;
+      font-family: 'Jaldi', sans-serif;
+      stroke: 0.5;
+    font-size: 0.85em;
+    text-align: center;
+      line-height: 0.6;
+      display: in-line;
+}
+
+footer .symbol {
+  float: right;
+  margin-right: 10%;
+}
+
+footer .symbol:hover {
+  opacity: 0.5;
+
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+   text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+   .header .dropdown {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  
+  
+  .header-right {
+    float: left;
+        margin-left: 5%;
+
+  }
+
+
+</style>
+</head>
+
+
+<body>
+
+<div class="header">
+  <a href="index.html" class="logo">Soojin Lee</a>      
+  <div class="header-right">
+    <a  href="about.html">About</a>   
+    <div class="menu dropdown">
+    <button class="dropbtn">Work 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content2">
+       <a href="uiux.html">UI/UX Design</a>
+         <a href="gd.html">Graphic Design</a>
+         <a href="game.html">Game</a>
+        <a href="film.html">Film</a>
+    </div>
+  </div> 
+
+          <a href="soojinresume.pdf" target="_blank" id="resume">
+            Resume
+            </a>
+  </div>
+</div>
+<!-- Header Ends -->
+
+{{ content }}
+
+<!-- Footer -->
+<footer class="w3-container w3-large">
+    <hr>
+
+<div class="contact">
+
+  <text class="footerstyle">  <i class="fa fa-envelope symbol1"></i> &nbsp; <a href="mailto:sl7362@nyu.edu" target="_blank"> sl7362@nyu.edu </a></text>
+
+  <text class="footerstyle"><i class="fa fa-mobile symbol1"></i>  &nbsp; +1 (646)3276992 </text>
+
+</div>
+
+<div class="icon">
+
+<div class="iconcontainer">
+
+<a class="footerstyle" href="mailto:sl7362@nyu.edu" target="_blank"><i class="fa fa-envelope symbol"></i></a>
+
+<a class="footerstyle" href="https://www.linkedin.com/in/soojin-lee0819/"><i class="fa fa-linkedin symbol"></i></a>
+
+</div>
+</div>
+
+</footer>
+
+
+
+<script> src="script.js" type="text/javascript"</script>
+<script src="js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  width: 100%;
+  margin-top: 12%;
+}
+
+.gdrow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create four equal columns that sits next to each other */
+.gdcolumn {
+  width: 100%;
+  margin: auto;
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  max-width: 20%;
+}
+
+.gdcolumn img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
+ .gdcolumn .gdTitle {
+  opacity: 0;
+  font-family: 'Barlow', sans-serif;
+  color: black;
+  font-size: 1.8vw;
+  text-align: center;
+  transform: translate(0, -13vw);
+}
+
+ .gdcolumn .gdDes {
+  opacity: 0;
+  font-family: 'Barlow', sans-serif;
+  color: black;
+  font-size: 1.1vw;
+  text-align: center;
+  transform: translate(0, -14vw);
+}
+
+
+ .gdcolumn .gdTitleLong {
+  opacity: 0;
+  font-family: 'Barlow', sans-serif;
+  color: black;
+  font-size: 1.8vw;
+  text-align: center;
+  transform: translate(0, -18vw);
+}
+
+ .gdcolumn .gdDesLong {
+  opacity: 0;
+  font-family: 'Barlow', sans-serif;
+  color: black;
+  font-size: 1.1vw;
+  text-align: center;
+  transform: translate(0, -19vw);
+}
+
+
+
+
+.gdcolumn:hover img{
+    opacity: 0.2;
+
+}
+
+.gdcolumn:hover  .gdTitle {
+  opacity: 1;
+}
+
+.gdcolumn:hover  .gdDes {
+  opacity: 1;
+}
+
+.gdcolumn:hover  .gdTitleLong {
+  opacity: 1;
+}
+
+.gdcolumn:hover  .gdDesLong {
+  opacity: 1;
+}
+
+
+
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+   text-decoration: none;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+
+  .gdcolumn {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+   .gdcolumn .gdTitle {
+      font-size: 5vw;
+  transform: translate(0, -56vw);
+}
+
+ .gdcolumn .gdDes {
+        font-size: 3vw;
+  transform: translate(0, -60vw);
+}
+}
