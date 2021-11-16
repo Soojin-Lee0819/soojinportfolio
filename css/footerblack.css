@@ -1,6 +1,6 @@
 footer {
     font-family: 'Roboto', sans-serif;
-   background-color: #f2f2f2;
+   background-color: #131313;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -8,7 +8,6 @@ footer {
 }
 
 footer .icon {
-      color: black;
   height: 50pt;
   font-size: 1em;
   padding-bottom: 1%;
@@ -33,14 +32,12 @@ footer .contact {
   padding-bottom: 2%;
 }
 
-hr {
-  color: black;
-}
+
 
 .footerstyle {
-      color: black;
    margin-top: 30pt;
    margin-left: 10%;  
+   color: white;
    font-size: 0.9em;
 }
 
@@ -49,7 +46,6 @@ hr {
 }
 
 footer text {
-  color: black;
   white-space: nowrap;
       font-family: 'Jaldi', sans-serif;
       stroke: 0.5;
