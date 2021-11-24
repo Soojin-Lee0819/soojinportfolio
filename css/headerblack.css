@@ -5,13 +5,14 @@ body {
 }
 
 .header {
-  z-index: 100;
   overflow: auto;
   background-color: #131313;
-  padding: 20px 10px;
+    padding: 20px 10px;
 }
 
 .header a {
+  position: ;
+    z-index: 9999 ;
   font-family: 'Barlow', sans-serif;
   float: left;
   color: white;
@@ -24,6 +25,9 @@ body {
 }
 
 .header a.logo {
+  position: absolute;
+    overflow: auto ;
+    z-index: 9999 ;
   font-family: 'Cormorant SC', serif;
   margin-left: 5%;
   font-size: 30px;
@@ -31,12 +35,14 @@ body {
 
 
 .header-right {
+    z-index: 9999 ;
   float: right;
   margin-right: 3%;
 }
 
 .dropdowna {
-  padding: 20px;
+    z-index: 9999 ;
+  padding: 50px;
   font-family: 'Barlow', sans-serif;
   float: left;
   color: white;
@@ -48,6 +54,7 @@ body {
 }
 
 .dropdowna .dropbtna {
+    transform: translate(0, -31px);
   border: none;
   outline: none;
   color: white;
@@ -62,6 +69,7 @@ body {
 }
 
 .dropdowna-contenta {
+      transform: translate(0, -24px);
     overflow: auto ;
   margin-top: 1%;
   font-family: 'Barlow', sans-serif;

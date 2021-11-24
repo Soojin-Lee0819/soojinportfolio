@@ -4,13 +4,12 @@
 
 .gallery {
   width: 100%;
-  margin-top: 12%;
+  margin-top: 3%;
 }
 
 .uiuxrow {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -6%;
   width: 90%;
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -28,6 +27,7 @@
 }
 
 .uiuxcolumn img {
+  -webkit-transition: opacity 0.4s;
   vertical-align: middle;
   width: 100%;
 }
@@ -37,18 +37,20 @@
 
 
  .uiuxcolumn .uiuxTitle {
+     -webkit-transition: opacity 0.4s;
   opacity: 0;
   font-family: 'Barlow', sans-serif;
-  color: black;
+  color: #303030;
   font-size: 2vw;
   text-align: center;
   transform: translate(0, -16vw);
 }
 
  .uiuxcolumn .uiuxDes {
+       -webkit-transition: opacity 0.4s;
   opacity: 0;
   font-family: 'Barlow', sans-serif;
-  color: black;
+  color: #4e4e4e;
   font-size: 1.3vw;
   text-align: center;
   transform: translate(0, -16.6vw);
@@ -61,8 +63,11 @@
 
 .uiuxcolumn:hover img{
     opacity: 0.2;
+     transform: scale(1.04);
 
 }
+
+
 
 .uiuxcolumn:hover  .uiuxTitle {
   opacity: 1;

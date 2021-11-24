@@ -4,7 +4,7 @@
 
 .gallery {
   width: 100%;
-  margin-top: 12%;
+  margin-top: 10%;
 }
 
 .gdrow {
@@ -41,7 +41,7 @@
   color: black;
   font-size: 1.8vw;
   text-align: center;
-  transform: translate(0, -13vw);
+  transform: translate(0, -11vw);
 }
 
  .gdcolumn .gdDes {
@@ -50,7 +50,7 @@
   color: black;
   font-size: 1.1vw;
   text-align: center;
-  transform: translate(0, -14vw);
+  transform: translate(0, -12vw);
 }
 
 
@@ -60,7 +60,7 @@
   color: black;
   font-size: 1.8vw;
   text-align: center;
-  transform: translate(0, -18vw);
+  transform: translate(0, -16vw);
 }
 
  .gdcolumn .gdDesLong {
@@ -69,13 +69,14 @@
   color: black;
   font-size: 1.1vw;
   text-align: center;
-  transform: translate(0, -19vw);
+  transform: translate(0, -17vw);
 }
 
 
 
 
 .gdcolumn:hover img{
+    -webkit-transition: opacity 0.4s;
     opacity: 0.2;
 
 }
