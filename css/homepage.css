@@ -6,6 +6,7 @@
     min-height: 100%;
     width: 100%;
     position: relative;
+        text-align: center;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -37,6 +38,7 @@
 }
 
 .tile {
+  text-align: center;
   position: relative;
 }
 
@@ -51,8 +53,9 @@
 
 
 .hoverWork {
-    text-align: center;
-    transform: translate(0, -3vh);
+  display: flex;
+       align-items: center;   
+  transform: translate(-1vw, -4vh);
   position:relative;                               
   color: white; 
   font-family: 'Cormorant SC', serif;
@@ -61,8 +64,7 @@
 }
 
 .hoverWork2 {
-     text-align: center;
-  position:relative;                               
+  transform: translate(0, -2vh);                           
   color: white; 
   font-family: 'Cormorant SC', serif;
   font-size: 1.7vw;
@@ -162,11 +164,11 @@
 }
 
 .tile-link:hover .tile-img4 {
-   -webkit-filter: brightness(.3);
-   filter: brightness(.3); 
-  box-shadow: 5px 5px rgba(94, 150, 51, 0.4), 10px 10px rgba(94, 150, 51, 0.3),
-    15px 15px rgba(94, 150, 51, 0.2), 20px 20px rgba(94, 150, 51, 0.1),
-    25px 25px rgba(94, 150, 51, 0.05);
+   -webkit-filter: brightness(.2);
+   filter: brightness(.2); 
+  box-shadow: 5px 5px rgba(0,0, 0, 0.4),
+    10px 10px rgba(0,0, 0, 0.3), 15px 15px rgba(0,0, 0, 0.2),
+    20px 20px rgba(0,0, 0, 0.1), 25px 25px rgba(0,0, 0, 0.05);
 }
 
 .tile-link:hover .tile-img5 {
