@@ -5,10 +5,10 @@ body {
 }
 
 .header {
+    background-color: lightgrey;
   z-index: 100;
   overflow: auto;
-  background-color: white;
-  padding: 20px 10px;
+  padding: 20px 0px;
 }
 
 .header a {
@@ -23,10 +23,8 @@ body {
   border-radius: 4px;
 }
 
-.header a.logo {
-  font-family: 'Cormorant SC', serif;
-  margin-left: 5%;
-  font-size: 30px;
+.logo {
+  width: 18%;
 }
 
 
