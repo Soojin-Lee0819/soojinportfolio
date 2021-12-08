@@ -5,43 +5,63 @@ body {
 }
 
 .header {
-    background-color: lightgrey;
   z-index: 100;
+  width: 100%;
+    font-weight: 100;
   overflow: auto;
-  padding: 20px 0px;
+  padding: 0px 0px;
+  -webkit-box-shadow:0px 1px 1px #ECECEC;
+ -moz-box-shadow:0px 1px 1px #ECECEC;
+ box-shadow:0px 1px 1px #ECECEC;
 }
 
 .header a {
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 100;
   float: left;
   color: black;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
   text-decoration: none;
   font-size: 18px; 
   line-height: 25px;
-  border-radius: 4px;
+}
+
+@font-face {
+  font-family: soojinfont;
+  src: url(blob-round.ttf);
 }
 
 .logo {
-  width: 18%;
+  width: 16%;
+  margin-right: 5%;
 }
 
 
+.name {
+  float: left;
+  margin-top: 2%;
+    margin-left: 5%;
+  padding-top: 0px;
+  width: 18%;
+}
+
 .header-right {
   float: right;
+  padding-top: 30px;
   margin-right: 3%;
 }
 
 .dropdowna {
-  padding: 50px;
-  font-family: 'Barlow', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
   float: left;
   color: black;
   text-align: center;
   text-decoration: none;
   font-size: 18px; 
-  line-height: 25px;
   overflow: hidden;
 }
 
@@ -54,13 +74,12 @@ body {
 }
 
 .header a:hover, .dropbtna:hover {
-    color:  #daa520;
+    color:  #5B6399;
  
 }
 
 .dropdowna-contenta {
       transform: translate(0, -24px);
-  font-family: 'Barlow', sans-serif;
   display: none;
   position: absolute;
   background-color: rgba(255, 255, 255);
