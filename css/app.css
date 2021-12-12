@@ -143,7 +143,7 @@ letter-spacing: 0.2em;
     color: black;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .insight .box .right .explain {
@@ -155,6 +155,17 @@ letter-spacing: 0.2em;
     font-size: 1.2em;
     padding-bottom: 3vw;
 }
+
+.insight .box .right .title-explain {
+  width: 100%;
+    float: left;
+    color: #C16F53;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    padding-bottom: 1vw;
+}
+
 
 .insight .box .right img {
   padding-bottom: 3vw;
