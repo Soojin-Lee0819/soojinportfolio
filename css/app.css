@@ -3,11 +3,162 @@
 }
 
 .appcontainer {
+  font-family: proxima-nova, sans-serif;
+font-weight: 300;
   width: 100%;
   padding-bottom: 10%;
 }
 
+.approwtitle {
+  top: 0;
 
+}
+
+.approwtitle .title {
+    margin-left: 10vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    padding-top: 4%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.approwtitle .subheading{
+    margin-left: 10vw;
+    margin-top: 0;
+    padding-top: 1vw;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+
+}
+
+.approwdescription {
+  float: left;
+  width: 100%;
+  top: 0;
+  margin-top: 6vw;
+}
+
+.approwdescription .left {
+  margin-left: 10vw;
+  float: left;
+  width: 40vw;
+  height: 40vw;
+}
+
+.approwdescription .left .box1 {
+  float: left;
+  height: 100pt;
+  width: 50%;
+}
+
+
+.approwdescription .left .title {
+    margin-left: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+
+}
+
+.approwdescription .left .text{
+    margin-top: 0;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+
+}
+
+
+.approwdescription .right {
+  float: left;
+  width: 40vw;
+}
+
+.approwdescription .right img {
+   margin-right: 0;
+   width: 100%;
+}
+
+
+hr {
+  margin-left: 10vw;
+  width: 80vw;
+  margin-right: 10vw;
+}
+/*insight*/
+
+
+.insight {
+  float: left;
+    width: 100%;
+  margin-top: 2%;
+
+}
+
+.insight .title {
+       padding-left: 10vw;
+  width: 100%;
+    color: #C16F53;
+   font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+font-style: normal;
+letter-spacing: 0.2em;
+    font-size: 1em;
+    padding-top: 3vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.insight .box {
+    padding-top: 5vw;
+    width: 100%;
+      float: left;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vw;
+
+}
+
+.insight .left{
+    float: left;
+      width: 20%;
+      margin-right: 10%;
+
+}
+
+.insight .right{
+    float: left;
+      width: 70%;
+
+}
+
+
+
+.insight .box .left .title2 {
+    float: left;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.insight .box .right .explain {
+  width: 100%;
+    float: left;
+    color: black;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-bottom: 3vw;
+}
+
+.insight .box .right img {
+  padding-bottom: 3vw;
+}
 /*row0*/
 .approw0 {
   background-color: white;
@@ -22,7 +173,7 @@
 }
 
 .approw0 .image {
-  width: 60%;
+ 
 }
 
 .approw0 .appgif {
@@ -302,9 +453,24 @@ margin-left: 12.5%;
 .sensory {
   margin-left: 15%;
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 800px) {
 
 
+.approwdescription .left {
+    margin-right: 0;
+    width: 100%;
+}
 
+.approwdescription .right {
+    width: 100%;
+    margin-right: 0;
+}
+
+
+.approwdescription .right img {
+    margin-right: 0;
+  margin-left: 0;
+  }
 
 }

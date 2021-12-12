@@ -33,11 +33,13 @@ width: 70%;
 h1 {
     font-size: 2.1vw;
      font-weight: bold;
-
-    font-family: 'barlow';
+  font-family: proxima-nova, sans-serif;
+   font-weight: 600;
 }
 
 .txt-rotate {
+    font-family: proxima-nova, sans-serif;
+   font-weight: 600;
     font-size: 2.3vw;
   color: #933a16;
 
@@ -46,10 +48,10 @@ h1 {
 
 .text1 {
 
-
+  font-family: proxima-nova, sans-serif;
+   font-weight: 200;
   font-size: 2vw;
 
-  font-family: 'barlow';
 
    font-weight:lighter;
 

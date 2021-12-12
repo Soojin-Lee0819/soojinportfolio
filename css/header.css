@@ -7,91 +7,90 @@ body {
 .header {
   z-index: 100;
   width: 100%;
-    font-weight: 100;
   overflow: auto;
-  padding: 0px 0px;
-  -webkit-box-shadow:0px 1px 1px #ECECEC;
- -moz-box-shadow:0px 1px 1px #ECECEC;
- box-shadow:0px 1px 1px #ECECEC;
 }
 
-.header a {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 100;
+.header-right a {
+  font-family: proxima-nova, sans-serif;
+font-weight: 200;
+font-style: normal;
   float: left;
   color: black;
   text-align: center;
-  padding-top: 20px;
-  padding-right: 20px;
+  margin-top: 4vw;
+  padding-top: 1.6vw;
+  margin-bottom: 4vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
   text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-}
-
-@font-face {
-  font-family: soojinfont;
-  src: url(blob-round.ttf);
+  font-size: 1em; 
 }
 
 .logo {
-  width: 16%;
-  margin-right: 5%;
-}
-
-
-.name {
   float: left;
-  margin-top: 2%;
-    margin-left: 5%;
-  padding-top: 0px;
-  width: 18%;
+  margin-left: 4vw;
+  margin-top: 4vw;
+  width: 4vw;
+  margin-bottom: 4vw;
 }
+
 
 .header-right {
   float: right;
-  padding-top: 30px;
-  margin-right: 3%;
 }
 
 .dropdowna {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+  font-family: proxima-nova, sans-serif;
+font-weight: 200;
+font-style: normal;
   float: left;
   color: black;
   text-align: center;
   text-decoration: none;
-  font-size: 18px; 
+        margin-top: 3.8vw;
+          padding-top: 1.7vw;
+
+  font-size: 1em; 
   overflow: hidden;
 }
 
-.dropdowna .dropbtna {
-    transform: translate(0, -31px);
+.dropbtna {
+font-family: proxima-nova, sans-serif;
+font-weight: 200;
   border: none;
   outline: none;
   background-color: inherit;
+
   font-family: inherit;
 }
 
 .header a:hover, .dropbtna:hover {
-    color:  #5B6399;
+    color:  #C16F53;
  
 }
 
 .dropdowna-contenta {
-      transform: translate(0, -24px);
+   font-family: proxima-nova, sans-serif;
+font-weight: 200;
+font-style: normal;
   display: none;
   position: absolute;
   background-color: rgba(255, 255, 255);
-  min-width: 160px;
+  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 9999;
 }
 
 .dropdowna-contenta a {
+    font-size: 1em; 
+  margin-top: 0vw;
+  padding-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
+
   float: none;
   color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
