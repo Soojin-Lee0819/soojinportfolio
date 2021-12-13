@@ -12,6 +12,10 @@
  
 }
 
+   canvas:focus {
+        outline:none;
+    }
+
 .grid {
   display: flex;
   margin-right: auto;
