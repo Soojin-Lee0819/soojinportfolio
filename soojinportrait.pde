@@ -4,21 +4,23 @@
 Ball [] theBalls = new Ball[100];
 
 // keep track of how many balls we have already created
-int maxBalls = 1000;
+int maxBalls = 100;
 int numBalls = 0;
 int currentBall = 0;
+int soojin = true;
 
 void setup() 
 {
   // general setup
-  size (100,100);
+  size (500,500);
   smooth();
 }
 
 void draw() 
 {
   // clear background
-  background(255);
+  background(0,50);
+
   
   // if the user clicks we should create a ball
   if (mousePressed)
@@ -89,8 +91,8 @@ class Ball
     myAlpha = this.canvas.random(0,255);
     
     // randomize our speed
-    speedX = this.canvas.random(-5, 5);
-    speedY = this.canvas.random(-5, 5);
+    speedX = this.canvas.random(-2, 2);
+    speedY = this.canvas.random(-2, 2);
   }
   
   // move our ball
@@ -131,13 +133,15 @@ class Ball
     this.canvas.fill(myRed, myGreen, myBlue, myAlpha);
     this.canvas.ellipse(x,  y,  size,  size);
   }
+
+
   
   // fade method - allows a ball to fade out of existence
   void fade()
   {
     if (myAlpha > 0)
     {
-      myAlpha -= 3;
+      myAlpha -= 7;
     }
     else
     {
