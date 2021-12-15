@@ -31,7 +31,7 @@ width: 70%;
 }
 
 h1 {
-    font-size: 1em;
+    font-size: 2em;
   font-family: proxima-nova, sans-serif;
    font-weight: 400;
 }
@@ -39,7 +39,6 @@ h1 {
 .txt-rotate {
     font-family: proxima-nova, sans-serif;
    font-weight: 400;
-    font-size: 1em;
   color: #AF5D40;
 
 }
@@ -49,12 +48,10 @@ h1 {
 
   font-family: proxima-nova, sans-serif;
    font-weight: 200;
-  font-size: 2vw;
+  font-size: 1.5vw;
 
 
    font-weight:lighter;
-
-  line-height: 5vh;
 }
 
 

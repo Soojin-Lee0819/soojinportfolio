@@ -5,13 +5,14 @@ body {
 }
 
 .header {
-  z-index: 100;
+  z-index: 999;
   width: 100%;
   overflow: auto;
-     background:none;
+  background:none;
 }
 
 .header-right a {
+    z-index: 999;
   font-family: proxima-nova, sans-serif;
 font-weight: 200;
 font-style: normal;
@@ -55,7 +56,6 @@ font-style: normal;
           padding-top: 1.8vw;
 
   font-size: 1em; 
-  overflow: hidden;
 }
 
 .dropbtna {
