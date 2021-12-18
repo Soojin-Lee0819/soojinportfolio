@@ -11,28 +11,30 @@
 .container1 .left {
   float: left;
   margin-top: 12%;
- width: 30%;
+ width: 40%;
 }
 
 
 .container1 .right {
-  margin-top: -8vw;
   float: right;
   z-index: -2;
-     max-width: 55%;
+     max-width: 100%;
+     align-content: center;
        position: relative;
 }
 
 
 .container1 .right #namefull {
-  width: 100%;
+  width: 40%;
+  margin-left: 30%;
 }
 
 
 .container1 .right img#namefull-hover {
 
    position: absolute;
-     width: 100%;
+     margin: auto;
+     width: 40%;
       top: 0;
       right: 0;
       left: 0;
@@ -48,6 +50,12 @@
 
 }
 
+.container1 .right:hover img#namefull {
+  opacity: 0;
+     transition: opacity 1.5s;
+
+}
+
 .container1 .left #text1 {
     color: #AF5D40;
     float: left;
@@ -55,7 +63,7 @@
     font-family: proxima-nova, sans-serif;
 font-weight: 600;
 font-style: normal;
-    font-size: 1.3em;
+    font-size: 3em;
 
 }
 
@@ -66,7 +74,7 @@ font-style: normal;
     width: 100%;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
-    font-size: 1.7vw;
+    font-size: 2.1vw;
     margin-bottom: 0;
 
 }
