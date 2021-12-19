@@ -6,9 +6,9 @@ body {
 
 .header {
   z-index: 999;
+  background-color: white;
   width: 100%;
-  overflow: auto;
-  background:none;
+  height: 10vw;
 }
 
 .header-right a {
@@ -32,7 +32,7 @@ font-style: normal;
   float: left;
   margin-left: 4vw;
   margin-top: 4vw;
-  width: 6vw;
+  width: 5vw;
   margin-bottom: 4vw;
 }
 

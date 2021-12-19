@@ -1,33 +1,85 @@
 .container1 {
   position: relative;
   width: 100%;
+  height: 40vw;
+  align-items: flex;
 }
 
 .container1 .introduction {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+
+
+.container1 .introduction .left {
+  background-color: #C16F53;
   margin-left: 4vw;
-    margin-right: 4vw;
-}
-
-.container1 .left {
-  float: left;
-  margin-top: 12%;
- width: 40%;
-}
-
-
-.container1 .right {
-  float: right;
-  z-index: -2;
-     max-width: 100%;
-     align-content: center;
-       position: relative;
+  position: absolute;
+  justify-items: center;
+  border-top-right-radius: 45vw;
+  width: 66vw;
+  height: 100%;
 }
 
 
-.container1 .right #namefull {
-  width: 40%;
-  margin-left: 30%;
+.container1 .left #text1 {
+  padding-top: 15%;
+  margin-left: 17%;
+  max-width: 50%;
+  text-align: left;    
+  color: white;
+    flex: left;
+    font-family: proxima-nova, sans-serif bold;
+      font-weight: 700;
+    font-size: 5vw;
+
 }
+
+
+
+.container1 .left #text2 {
+    color: white;
+      margin-left: 17%;
+        max-width: 62%;
+    font-family: proxima-nova, bold;
+    font-weight: 400;
+    font-size: 1.4vw;
+    margin-bottom: 0;
+
+}
+
+.right {
+  margin-right: 4vw;
+  background: purple;
+}
+
+#soojinprofile { 
+  position: absolute;
+  z-index: 9999;
+  margin-left: 56vw;
+ width: 20vw;
+ bottom: 0;
+}
+
+#fullname {
+  position: absolute;
+  right: 4vw;
+ width: 20vw;
+ bottom: 0;
+}
+
+
+
+.cardFront, .cardBack
+{
+  position:absolute;
+  opacity: 0%;
+  margin-left: 30vw;
+  width:40vw;
+}
+
 
 
 .container1 .right img#namefull-hover {
@@ -45,52 +97,32 @@
     }
 
 
-.container1 .right:hover img#namefull-hover {
+.container1 :hover img#namefull-hover {
   opacity: 1;
 
 }
 
-.container1 .right:hover img#namefull {
+.container1:hover img#namefull {
   opacity: 0;
      transition: opacity 1.5s;
 
 }
 
-.container1 .left #text1 {
-    color: #AF5D40;
-    float: left;
-    width: 100%;
-    font-family: proxima-nova, sans-serif;
-font-weight: 600;
-font-style: normal;
-    font-size: 3em;
 
-}
-
-
-
-.container1 .left #text2 {
-    float: left;
-    width: 100%;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
-    font-size: 2.1vw;
-    margin-bottom: 0;
-
-}
 
 
 
 /*Container 2 */
 
 .gallery {
+  z-index: 99;
+  margin-top: 10vw;
+  display: relative;
       float: left;
   width: 100%;
-  padding-top: 40%;
 }
 
 .uiuxrow {
-  margin-top: -13vw;
   margin-left: 4vw;
   margin-right: 4vw;
   width: 92vw;
@@ -210,12 +242,11 @@ a:active {
 @media screen and (max-width: 600px) {
 
 .container1 .left {
-  background-color: whitesmoke, 0.5;
-  
   float: left;
   margin-top: 5%;
- width: 100%;
+ width: 40%;
 }
+
 
 
 .container1 .right {
