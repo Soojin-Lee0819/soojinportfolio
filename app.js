@@ -30,7 +30,7 @@ done = true;
 
 
 function name1() {
-  document.getElementById("text2").innerHTML = "also a playful person specializing in having fun, find comfortable and enjoyable things in everyday life"
+  document.getElementById("text2").innerHTML = "also a playful person specializing in having fun, sharing fun stuff with others."
 }
 
 function name2() {
