@@ -71,7 +71,7 @@
 #fullname {
   position: absolute;
   right: 4vw;
- width: 8vw;
+ width: 16vw;
  bottom: 0vw;
 }
 
@@ -279,67 +279,39 @@ a:active {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 
-.container1 .homeleft {
-  float: left;
-  margin-top: 5%;
- width: 40%;
+.container1 {
+margin-top: 5vw;
+}
+
+.column {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+.row {
+    margin-top: 0%;
 }
 
 
+ .column .uiuxTitle {
+    font-size: 8vw;
+       line-height: 10vw;
 
-.container1 .right {
-  float: left;
-    top: -10vw;
-     max-width: 100%;
-       position: relative;
-        z-index: -3;
-}
+ }
 
 
-.container1 .left #text1 {
-    color: #AF5D40;
-    float: left;
-    width: 100%;
-    font-family: proxima-nova, sans-serif;
-font-weight: 600;
-font-style: normal;
-    font-size: 1.5em;
-
-}
-
-
-
-.container1 .homeleft #text2 {
-    float: left;
-    width: 60%;
-    margin-right: 40%;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
+ .column .subheading {
     font-size: 2.2vw;
-    margin-bottom: 0;
+       line-height: 3.2vw;
 
+ }
+
+
+  .column .uiuxDes {
+
+  font-size: 2.8vw;
 }
 
 
-
-  .uiuxcolumn {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-
-   .uiuxcolumn .uiuxTitle {
-      font-size: 5vw;
-  transform: translate(0, -48vw);
-}
-
- .uiuxcolumn .subheading {
-        font-size: 3vw;
-  transform: translate(0, -50vw);
-}
-
- .uiuxcolumn .uiuxDes {
-        font-size: 3vw;
-  transform: translate(0, -52vw);
-}
 }

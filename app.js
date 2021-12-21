@@ -4,9 +4,6 @@ var done = false;
 if (animation && !done){
 
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
-
-
-
 tl.fromTo(".name1", { rotateY: 0}, { rotateY: 0, duration: 0.5});
 tl.fromTo(".name1", { rotateY: 0}, { rotateY: 360, duration: 1});
 tl.fromTo(".name2", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
@@ -45,14 +42,23 @@ tl.fromTo(".span9",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Powe
 };
 
 
+
+
+const t2 = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+t2.fromTo(".soojin", {  y: "-40%" }, { y: "0",ease:Power2.easeInOut,duration: 1});
+t2.fromTo(".soojin", { opacity:0.8}, {  opacity: 1,ease:Power2.easeInOut,duration: 1},"-=1");
+t2.fromTo(".projectimg", { opacity:0}, {  opacity: 1,ease:Power2.easeInOut, duration: 1.8});
+
+
+
 function name1() {
-  document.getElementById("text2").innerHTML = "also a playful person specializing in having fun, <br> creating something fun, and sharing it with others."
+  document.getElementById("text2").innerHTML = "also a playful person specializing in having fun, <br> creating delightful experiences, and sharing with others."
 }
 
 function name2() {
   document.getElementById("text2").innerHTML = "An Interactive designer/developer specializing in providing technology-powered design solutions to complex problems."
 }
-
 
 var element = document.querySelector('h1');
 

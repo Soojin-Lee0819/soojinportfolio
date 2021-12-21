@@ -4,7 +4,7 @@
 
 .appcontainer {
   font-family: proxima-nova, sans-serif;
-font-weight: 300;
+font-weight: 400;
   width: 100%;
   padding-bottom: 10%;
 }
@@ -16,7 +16,7 @@ font-weight: 300;
 
 .approwtitle .title {
     margin-left: 10vw;
-    font-family: 'Ubuntu', sans-serif;
+  font-family: proxima-nova, sans-serif;
     font-weight: 700;
     font-size: 3em;
     padding-top: 4%;
@@ -58,7 +58,7 @@ font-weight: 300;
 
 .approwdescription .left .title {
     margin-left: 0;
-    font-family: 'Ubuntu', sans-serif;
+  font-family: proxima-nova, sans-serif;
     font-weight: 600;
     font-size: 0.8em;
 
@@ -141,7 +141,7 @@ letter-spacing: 0.2em;
 .insight .box .left .title2 {
     float: left;
     color: black;
-    font-family: 'Ubuntu', sans-serif;
+  font-family: proxima-nova, sans-serif;
     font-weight: 600;
     font-size: 1.2em;
 }
@@ -183,13 +183,11 @@ letter-spacing: 0.2em;
   flex-wrap: wrap;
 }
 
-.approw0 .image {
- 
-}
-
-.approw0 .appgif {
-margin-left: 42%;
-
+.image {
+  margin-top: 10%;
+   margin-bottom: 10%;
+   margin-left: 4vw;
+    margin-right: 4vw;
 }
 
 
@@ -235,253 +233,6 @@ margin-left: 42%;
   font-size: 1.5vw;
 }
 
-
-/*row1*/
-
-.approw1 {
-  padding-top: 15%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  margin-bottom: 25vh;
-}
-
-.approw1 .scan {
-margin-left: 12.5%;
- margin-bottom: 10vh;
-
-}
-.approw1 .text .title{
-  color: #3B3B3B;
-  margin-left: 12.5%;
-  transform: translate(0%, -20px);
-  font-size: 1.8vw;
-  margin-bottom: 3%;
-
-
-}
-
-
-.approw1 .text .description {
-  color: #3B3B3B;
-  margin-left: 15%;
-  transform: translate(0%, -10px);
-  font-size: 1.5vw;
-
-
-}
-
-
-/*row2*/
-
-.approw2 {
-
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding-bottom: 25vh;
-   display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-
-  }
-
-.approw2 .image {
+.fridger3d {
   margin-left: 20%;
-  margin-right: 13%;
-  width: 15%;
-  float: left;
-  }
-
-
-.approw2 .text {
-  padding-top: 5vh;
-  float: left;
-  margin-left: 5%;
-  width: 30%;
-  margin-right: 12%;
-  }
-
-
-
-
-.approw2 .text .description {
-  padding-top: 4vh;
-  font-size: 1.5vw;
-  }
-
-
-/*row3*/
-.approw3 {
-  margin-top: 15%;
-  padding-bottom: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-
-
-
-.approw3 .textleft {
-  margin-top: 15%;
-  width: 50%;
-  float: left;
-
-}
-
-.approw3 .textleft .title {
-  margin-left: 28%;
-  font-size: 2vw;
-
-}
-
-.approw3 .textleft .description {
-    color: #3B3B3B;
-  padding-left: 28%;
-  margin-right: 8%;
-  font-size: 1.3vw;
-  
-}
-
-.approw3 .textright {
-  margin-top: 10%;
-  width: 50%;
-  float: left;
-
-}
-
-.addedit {
-  transform: translate(-13%, 0);
-}
-
-.approw3 .textright .title {
-  margin-left: 20%;
-  font-size: 2vw;
-
-}
-
-.approw3 .textright .description {
-    color: #3B3B3B;
-  padding-left: 20%;
-  margin-right: 20%;
-    padding-right: 5%;
-  font-size: 1.3vw;
-  
-}
-
-.approw3 .textcenter {
-  margin-top: 5%;
-  text-align: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
-  float: left;
-
-}
-
-
-.approw3 .textcenter .title {
-
-  font-size: 2vw;
-
-}
-
-.approw3 .textcenter .description {
-  padding-left: 10%;
-    padding-right: 10%;
-    color: #3B3B3B;
-  font-size: 1.3vw;
-  
-}
-
-
-.approw3 .textleft ul {
-  padding-left: 30%;
-    padding-right: 10%;
-    color: #3B3B3B;
-  font-size: 1.3vw;
-  
-}
-
-
-.approw3 .imageleft {
-  width: 50%;
-
-}
-
-
-.approw3 .imageleft img {
-    margin-left: 27%;
-}
-
-.approw3 .imageright {
-  width: 50%;
-
-}
-
-.approw3 .imageright img {
-  float: right;
-  margin-right: 15%;
-}
-
-
-
-.customize {
-  padding-right: 15%;
-}
-
-.dish {
-    padding-left: 10%;
-}
-
-.recipe {
-    transform: translate(5%, 0);
-    margin-right: 30%;
-
-}
-
-.grocery {
-  transform: translate(-10vw, 0);
-}
-
-.metaverse {
-   transform: translate(-5vw, 0);
-}
-
-.display {
-  margin-left: 10%;
-}
-.immersive {
-  margin-left: 25%;
-}
-
-.sensory {
-  margin-left: 15%;
-}
-
-@media screen and (max-width: 800px) {
-
-
-.approwdescription .left {
-    margin-right: 0;
-    width: 100%;
-}
-
-.approwdescription .right {
-    width: 100%;
-    margin-right: 0;
-}
-
-
-.approwdescription .right img {
-    margin-right: 0;
-  margin-left: 0;
-  }
-
 }

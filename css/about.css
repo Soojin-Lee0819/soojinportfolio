@@ -34,7 +34,7 @@ width: 40%;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.6vw;
   font-family: proxima-nova, sans-serif;
    font-weight: 400;
 }
@@ -76,67 +76,49 @@ h1 {
 
 .container2{
    background-color: #f2f2f2;
-  background-color: ;
     float: left;
 padding: 4vw;
   width: 100%;
-  display: flex;
-}
-
-.container2:after {
-  content: "";
-  display: table;
-  clear: both;
+  position: relative;
 }
 
 .column {
   float: left;
   width: 25%;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 1.5vw;
 
 }
 
 .column p {
-    font-size: 11px;
+    font-size: 1vw;
     font-weight: 200;
-   line-height: 0px;
-}
-
-hr {
-  color: lightgrey;
-   position: relative;
+  line-height: 1vw;
 }
 
 @media screen and (max-width: 600px) {
 
-.left {
-      width: 100%;
-
-  }
-
-
-
-.left img[src*="images/about/soojinprofilepic.jpg"] {
-margin-left: 15%;
-margin-right: 15%;
-width: 70%;
-
-
+.container2{
+   background-color: #f2f2f2;
+    float: left;
+padding: 4vw;
+  width: 100%;
 }
 
-.right {
-    width: 100%;
 
-  }
-
-.text1 {
-    font-size: 3vw;
-      line-height: 3.7vw;
-
+  .column {
+      position: relative;
+  width: 50%;
 }
+
+.column p {
+    font-size: 1v;
+    font-weight: 200;
+  line-height:0;
+}
+
+
 
 }
