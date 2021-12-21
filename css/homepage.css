@@ -13,7 +13,7 @@
 }
 
 .container1 .introduction .homeleft {
-  background-color: #C16F53;
+  background-color: #E75C40;
   margin-left: 4vw;
   position: absolute;
   justify-items: center;
@@ -45,8 +45,9 @@
 
 .container1 .homeleft #text2 {
     color: white;
+    margin-top: 2%;
       margin-left: 17%;
-        max-width: 62%;
+        max-width: 55%;
     font-family: proxima-nova, bold;
     font-weight: 400;
     font-size: 1.4vw;
@@ -155,55 +156,53 @@ width: 8vw;
 
 /*Container 2 */
 
-.gallery {
-  z-index: 99;
-  margin-top: 10vw;
-  display: relative;
-      float: left;
+.container2 {
   width: 100%;
+  margin-top: 15vw;
+    margin-bottom: 15vw;
 }
 
-.uiuxrow {
+
+.row {
   margin-left: 4vw;
   margin-right: 4vw;
-  width: 92vw;
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
+  margin-top: 5%;
 }
 
-
-
-
-.uiuxcolumn {
-  margin-right: 1%;
-  margin-top: 0;
-    margin-bottom: 0;
-  margin-left: 1%;
-  width: 100%;
-  -ms-flex: 48%; /* IE10 */
-  flex: 48%;
-  max-width: 48%;
-    content-align: center;
+.column {
+  position: relative;
+  width: 49%;
 }
 
-.uiuxrow .uiuxcolumn img {
+.space {
+  width: 2%;
+  
+}
+
+.column img {
   -webkit-transition: opacity 0.4s;
   width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.column .text {
+  position: absolute;
+ top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
 }
 
 
-
-.uiuxcolumn p {
-  text-align: left;
-  margin-right: 20%;
-
-    margin-left: 20%;
+.text p{
+  margin: 0;
+  padding: 0;
 }
 
-
- .uiuxcolumn .uiuxTitle {
+ .column .uiuxTitle {
+    line-height: vw;
      -webkit-transition: opacity 0.4s;
   opacity: 0;
 font-family: ltc-bodoni-175,serif;
@@ -211,28 +210,27 @@ font-weight: 400;
 font-style: normal;
   color: #303030;
   font-size: 4vw;
-  transform: translate(0, -22vw);
+   line-height: 4.7vw;
 }
 
- .uiuxcolumn .subheading {
+ .column .subheading {
        -webkit-transition: opacity 0.4s;
   opacity: 0;
     font-family: proxima-nova, sans-serif;
   color: #303030;
   font-weight: 400;
   font-size: 1.1vw;
-  transform: translate(0, -23.5vw);
 }
 
 
- .uiuxcolumn .uiuxDes {
+ .column .uiuxDes {
+  margin-top: 4%;
        -webkit-transition: opacity 0.4s;
   opacity: 0;
     font-family: proxima-nova, sans-serif;
   color: #4e4e4e;
   font-size: 1.3vw;
   font-weight: 400;
-  transform: translate(0, -24vw);
 }
 
 
@@ -240,23 +238,23 @@ font-style: normal;
 
 
 
-.uiuxcolumn:hover img{
+.column:hover img{
     opacity: 0.2;
 }
 
 
 
-.uiuxcolumn:hover  .uiuxTitle {
+.column:hover  .uiuxTitle {
   opacity: 1;
 }
 
 
-.uiuxcolumn:hover  .subheading {
+.column:hover  .subheading {
   opacity: 1;
 }
 
 
-.uiuxcolumn:hover  .uiuxDes {
+.column:hover  .uiuxDes {
   opacity: 1;
 }
 

@@ -1,33 +1,36 @@
-
+.container1 {
+  float: left;
+  margin: 4vw;
+  width: 92vw;
+  display: flex;
+}
 
 .left {
-  float: left;
-
-    width: 40%;
-
-}
-
-
-.left img[src*="images/about/soojinprofilepic.jpg"] {
-margin-left: 30%;
-width: 70%;
-
+  display: flex;
+    width: 50%;
+  justify-content: center;
 
 }
+
+
+.left img{
+margin: 0 auto;
+width: 40%;
+}
+
 
 .right {
-  float: left;
-
-    width: 60%;
+  display: flex;
+  align-items: center;
+  width: 50%;
 
 }
 
-
 .introduction {
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 60%;
-  margin-top: 5%;
+  margin: 0 auto;
+  width: 70%;
+
+
 }
 
 h1 {
@@ -45,12 +48,9 @@ h1 {
 
 
 .text1 {
-
   font-family: proxima-nova, sans-serif;
    font-weight: 200;
   font-size: 1.5vw;
-
-
    font-weight:lighter;
 }
 
@@ -74,7 +74,40 @@ h1 {
 }
 */
 
+.container2{
+    float: left;
+  margin: 4vw;
+  width: 92vw;
+  display: flex;
+}
 
+.container2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+h2 {
+    font-size: 14px;
+
+}
+
+.column p {
+    font-size: 11px;
+    font-weight: 200;
+   line-height: 0px;
+}
+
+hr {
+  color: lightgrey;
+   position: relative;
+}
 
 @media screen and (max-width: 600px) {
 

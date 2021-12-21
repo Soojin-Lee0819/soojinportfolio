@@ -2,58 +2,90 @@
   box-sizing: border-box;
 }
 
+
+
+/*Container 2 */
+
 .gallery {
+  z-index: 99;
+  margin-top: 15vw;
+  display: relative;
+      float: left;
   width: 100%;
-  margin-top: 3%;
 }
 
 .uiuxrow {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  width: 92vw;
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
 }
 
-/* Create four equal columns that sits next to each other */
+
+.space {
+  
+}
+
 .uiuxcolumn {
+  margin-right: 1%;
+  margin-top: 0;
+    margin-bottom: 0;
+  margin-left: 1%;
   width: 100%;
-  margin: auto;
-  -ms-flex: 28%; /* IE10 */
-  flex: 28%;
-  max-width: 28%;
+  -ms-flex: 48%; /* IE10 */
+  flex: 48%;
+  max-width: 48%;
+    content-align: center;
 }
 
-.uiuxcolumn img {
+.uiuxrow .uiuxcolumn img {
   -webkit-transition: opacity 0.4s;
-  vertical-align: middle;
   width: 100%;
 }
 
 
 
+.uiuxcolumn p {
+  text-align: left;
+  margin-right: 20%;
+
+    margin-left: 20%;
+}
 
 
  .uiuxcolumn .uiuxTitle {
      -webkit-transition: opacity 0.4s;
   opacity: 0;
-  font-family: 'Barlow', sans-serif;
+font-family: ltc-bodoni-175,serif;
+font-weight: 400;
+font-style: normal;
   color: #303030;
-  font-size: 2vw;
-  text-align: center;
-  transform: translate(0, -16vw);
+  font-size: 4vw;
+  transform: translate(0, -22vw);
 }
+
+ .uiuxcolumn .subheading {
+       -webkit-transition: opacity 0.4s;
+  opacity: 0;
+    font-family: proxima-nova, sans-serif;
+  color: #303030;
+  font-weight: 400;
+  font-size: 1.1vw;
+  transform: translate(0, -23.5vw);
+}
+
 
  .uiuxcolumn .uiuxDes {
        -webkit-transition: opacity 0.4s;
   opacity: 0;
-  font-family: 'Barlow', sans-serif;
+    font-family: proxima-nova, sans-serif;
   color: #4e4e4e;
   font-size: 1.3vw;
-  text-align: center;
-  transform: translate(0, -16.6vw);
+  font-weight: 400;
+  transform: translate(0, -24vw);
 }
 
 
@@ -63,8 +95,6 @@
 
 .uiuxcolumn:hover img{
     opacity: 0.2;
-     transform: scale(1.04);
-
 }
 
 
@@ -72,6 +102,12 @@
 .uiuxcolumn:hover  .uiuxTitle {
   opacity: 1;
 }
+
+
+.uiuxcolumn:hover  .subheading {
+  opacity: 1;
+}
+
 
 .uiuxcolumn:hover  .uiuxDes {
   opacity: 1;
@@ -94,6 +130,7 @@ a:hover {
 a:active {
    text-decoration: none;
 }
+
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */

@@ -12,7 +12,7 @@ body {
 
 .header-right {
       display: flex;
-    align-items: center;
+          align-items: center;
     float: right;
     margin-right: calc(4vw - 30px);
   height: 10vw;
@@ -20,7 +20,6 @@ body {
 }
 
 .header-right a {
-  vertical-align: middle;
    z-index: 999;
   font-family: proxima-nova, sans-serif;
 font-weight: 200;
@@ -67,7 +66,7 @@ font-weight: 200;
 }
 
 .header a:hover, .dropbtna:hover {
-    color:  #C16F53;
+    color:  #E75C40;
  
 }
 
@@ -89,9 +88,7 @@ font-style: normal;
     font-size: 1em; 
   margin-top: 0vw;
   padding-top: 1vw;
-  margin-bottom: 1vw;
-  margin-left: 4vw;
-  margin-right: 4vw;
+  padding-bottom: 1vw;
 
   float: none;
   color: black;
@@ -101,7 +98,9 @@ font-style: normal;
 }
 
 .dropdowna-contenta a:hover {
-  background-color: white;
+  background-color: #E75C40;
+  color: white;
+  font-weight: 400;
 }
 
 .dropdowna:hover .dropdowna-contenta{
