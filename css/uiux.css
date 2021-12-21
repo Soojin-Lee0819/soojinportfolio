@@ -1,91 +1,105 @@
-* {
-  box-sizing: border-box;
+
+
+/*Container 1 */
+
+.container1 {
+  position: relative;
+   height: 50vw;
+  width: 100%;
+
+
 }
+
+.soojin img{
+  position: absolute;
+  left: 50%;
+}
+
+.project img {
+  position: absolute;
+    left: 33.5%;
+    top: 45%;
+}
+
 
 
 
 /*Container 2 */
 
-.gallery {
-  z-index: 99;
-  margin-top: 15vw;
-  display: relative;
-      float: left;
+.container2 {
   width: 100%;
+  margin-top: 12vw;
+    margin-bottom: 15vw;
 }
 
-.uiuxrow {
+
+.row {
   margin-left: 4vw;
   margin-right: 4vw;
-  width: 92vw;
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
+  margin-top: 12%;
 }
 
+.column {
+  position: relative;
+  width: 46%;
+}
 
 .space {
+  width: 8%;
   
 }
 
-.uiuxcolumn {
-  margin-right: 1%;
-  margin-top: 0;
-    margin-bottom: 0;
-  margin-left: 1%;
-  width: 100%;
-  -ms-flex: 48%; /* IE10 */
-  flex: 48%;
-  max-width: 48%;
-    content-align: center;
-}
-
-.uiuxrow .uiuxcolumn img {
+.column img {
   -webkit-transition: opacity 0.4s;
   width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.column .text {
+  position: absolute;
+ top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
 }
 
 
-
-.uiuxcolumn p {
-  text-align: left;
-  margin-right: 20%;
-
-    margin-left: 20%;
+.text p{
+  margin: 0;
+  padding: 0;
 }
 
-
- .uiuxcolumn .uiuxTitle {
+ .column .uiuxTitle {
      -webkit-transition: opacity 0.4s;
   opacity: 0;
-font-family: ltc-bodoni-175,serif;
+ font-family: proxima-nova, sans-serif;
 font-weight: 400;
 font-style: normal;
   color: #303030;
   font-size: 4vw;
-  transform: translate(0, -22vw);
+   line-height: 4.7vw;
 }
 
- .uiuxcolumn .subheading {
+ .column .subheading {
        -webkit-transition: opacity 0.4s;
   opacity: 0;
     font-family: proxima-nova, sans-serif;
   color: #303030;
   font-weight: 400;
   font-size: 1.1vw;
-  transform: translate(0, -23.5vw);
 }
 
 
- .uiuxcolumn .uiuxDes {
+ .column .uiuxDes {
+  margin-top: 4%;
        -webkit-transition: opacity 0.4s;
   opacity: 0;
     font-family: proxima-nova, sans-serif;
   color: #4e4e4e;
   font-size: 1.3vw;
   font-weight: 400;
-  transform: translate(0, -24vw);
 }
 
 
@@ -93,23 +107,23 @@ font-style: normal;
 
 
 
-.uiuxcolumn:hover img{
+.column:hover img{
     opacity: 0.2;
 }
 
 
 
-.uiuxcolumn:hover  .uiuxTitle {
+.column:hover  .uiuxTitle {
   opacity: 1;
 }
 
 
-.uiuxcolumn:hover  .subheading {
+.column:hover  .subheading {
   opacity: 1;
 }
 
 
-.uiuxcolumn:hover  .uiuxDes {
+.column:hover  .uiuxDes {
   opacity: 1;
 }
 
@@ -132,9 +146,50 @@ a:active {
 }
 
 
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+
+.container1 .homeleft {
+  float: left;
+  margin-top: 5%;
+ width: 40%;
+}
+
+
+
+.container1 .right {
+  float: left;
+    top: -10vw;
+     max-width: 100%;
+       position: relative;
+        z-index: -3;
+}
+
+
+.container1 .left #text1 {
+    color: #AF5D40;
+    float: left;
+    width: 100%;
+    font-family: proxima-nova, sans-serif;
+font-weight: 600;
+font-style: normal;
+    font-size: 1.5em;
+
+}
+
+
+
+.container1 .homeleft #text2 {
+    float: left;
+    width: 60%;
+    margin-right: 40%;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-size: 2.2vw;
+    margin-bottom: 0;
+
+}
+
 
 
   .uiuxcolumn {
@@ -145,11 +200,16 @@ a:active {
 
    .uiuxcolumn .uiuxTitle {
       font-size: 5vw;
-  transform: translate(0, -56vw);
+  transform: translate(0, -48vw);
+}
+
+ .uiuxcolumn .subheading {
+        font-size: 3vw;
+  transform: translate(0, -50vw);
 }
 
  .uiuxcolumn .uiuxDes {
         font-size: 3vw;
-  transform: translate(0, -60vw);
+  transform: translate(0, -52vw);
 }
 }

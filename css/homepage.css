@@ -166,16 +166,16 @@ width: 8vw;
 .row {
   margin-left: 4vw;
   margin-right: 4vw;
-  margin-top: 5%;
+  margin-top: 12%;
 }
 
 .column {
   position: relative;
-  width: 49%;
+  width: 46%;
 }
 
 .space {
-  width: 2%;
+  width: 8%;
   
 }
 
@@ -202,10 +202,9 @@ width: 8vw;
 }
 
  .column .uiuxTitle {
-    line-height: vw;
      -webkit-transition: opacity 0.4s;
   opacity: 0;
-font-family: ltc-bodoni-175,serif;
+ font-family: proxima-nova, sans-serif;
 font-weight: 400;
 font-style: normal;
   color: #303030;
