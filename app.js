@@ -47,9 +47,12 @@ tl.fromTo(".span9",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Powe
 const t2 = gsap.timeline({ defaults: { ease: "power1.out" } });
 
 t2.fromTo(".soojin", {  y: "-40%" }, { y: "0",ease:Power2.easeInOut,duration: 1});
-t2.fromTo(".soojin", { opacity:0.8}, {  opacity: 1,ease:Power2.easeInOut,duration: 1},"-=1");
-t2.fromTo(".projectimg", { opacity:0}, {  opacity: 1,ease:Power2.easeInOut, duration: 1.8});
+t2.fromTo(".soojin", { opacity:0.6}, {  opacity: 1,ease:Power2.easeInOut,duration: 1},"-=1");
 
+
+const t3 = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+t3.fromTo(".projectimg", { y:"-10%", opacity:0}, { y:"0%", opacity:1, ease:Power2.easeInOut,duration: 1});
 
 
 function name1() {

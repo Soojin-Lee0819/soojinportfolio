@@ -88,11 +88,11 @@ width: 20%;
  .column .uiuxTitle {
      -webkit-transition: opacity 0.4s;
   opacity: 0;
- font-family: proxima-nova, sans-serif;
-font-weight: 400;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
 font-style: normal;
   color: #303030;
-  font-size: 4vw;
+  font-size: 3vw;
    line-height: 4.7vw;
 }
 
