@@ -281,3 +281,13 @@ letter-spacing: 0.2em;
 .fridger3d {
   margin-left: 20%;
 }
+
+.figmaimages {
+  float: left;
+  display: relative;
+}
+
+.album {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
