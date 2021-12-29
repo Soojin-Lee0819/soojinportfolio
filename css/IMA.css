@@ -28,6 +28,16 @@
     margin-bottom: 0;
 
 }
+.figmaimages {
+  float: left;
+  display: relative;
+}
+
+.album {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
 
 .approwtitle .subheading{
     margin-left: 10vw;
@@ -87,7 +97,26 @@
    width: 100%;
 }
 
+.container1 {
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  align-items: flex;
+}
 
+.cardIMA
+{
+  position:absolute;
+  margin-left: 20vw;
+  width:40vw;
+}
+
+
+.cardIMA img
+{
+  width: 26%;
+ margin: 3%;
+}
 
 
 

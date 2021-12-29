@@ -43,6 +43,20 @@ tl.fromTo(".span9",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Powe
 
 
 
+const t4 = gsap.timeline({ defaults: { ease: "power1.out" } });
+t4.fromTo(".ima1", { rotateY: 0}, { rotateY: 0, duration: 0.5});
+t4.fromTo(".ima1", { rotateY: 0}, { rotateY: 360, duration: 1});
+t4.fromTo(".ima2", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
+t4.fromTo(".ima3", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
+t4.fromTo(".ima4", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
+t4.fromTo(".ima5", { rotateY: 0}, { rotateY: 360, dusration: 1},"-=0.95");
+t4.fromTo(".ima6", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
+t4.fromTo(".ima7", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
+t4.fromTo(".ima8", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
+t4.fromTo(".ima9", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
+
+
+
 
 const t2 = gsap.timeline({ defaults: { ease: "power1.out" } });
 
