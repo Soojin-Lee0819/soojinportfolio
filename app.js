@@ -67,6 +67,7 @@ t2.fromTo(".soojin", { opacity:0.6}, {  opacity: 1,ease:Power2.easeInOut,duratio
 const t3 = gsap.timeline({ defaults: { ease: "power1.out" } });
 
 t3.fromTo(".projectimg", { y:"-10%", opacity:0}, { y:"0%", opacity:1, ease:Power2.easeInOut,duration: 1});
+t3.fromTo(".yellowimg", {opacity:0}, {opacity:1, ease:Power2.easeInOut,duration: 1});
 
 
 function name1() {

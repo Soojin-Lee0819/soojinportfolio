@@ -36,6 +36,16 @@ width: 20%;
 }
 
 
+.yellow {
+            left: 33.5%;
+            width: 15%;
+    position: absolute;
+}
+
+.yellow img {
+  width: 100%;
+}
+
 
 
 /*Container 2 */
