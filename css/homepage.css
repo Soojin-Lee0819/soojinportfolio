@@ -1,3 +1,10 @@
+#fullname {
+  position: absolute;
+  right: 34vw;
+ width: 30vw;
+ bottom: 10vw;
+ z-index: -6;
+}
 
 
 #myCanvas {
@@ -77,23 +84,9 @@
   position: absolute;
 
   z-index: 9999;
-  margin-left: 56vw;
+  right: 10vw;
  width: 20vw;
  bottom: 0;
-}
-
-#fullname {
-  position: absolute;
-  right: 4vw;
- width: 16vw;
- bottom: 0vw;
-}
-
-#fullname1 {
-  position: absolute;
-  right: 12vw;
-width: 8vw;
- bottom: 8vw;
 }
 
 #fullname2 {

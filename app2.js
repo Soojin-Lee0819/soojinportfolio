@@ -52,7 +52,7 @@ class Wave {
         this.stageHeight = stageHeight;
 
         this.centerX = stageWidth / 2;
-        this.centerY = stageHeight / 3;
+        this.centerY = stageHeight/2.5;
 
         this.pointGap = this.stageWidth / (this.totalPoints - 1);
 
@@ -75,7 +75,7 @@ class Wave {
         ctx.moveTo(prevX, prevY);
 
         for (let i = 0; i < this.totalPoints; i++) {
-            const cx = (prevX + this.points[i].x) / 2;
+            const cx = (prevX + this.points[i].x) /2;
             const cy = (prevY + this.points[i].y) / 2;
 
             ctx.quadraticCurveTo(prevX, prevY, cx, cy);
@@ -101,9 +101,9 @@ class Point {
         this.x = x;
         this.y = y;
         this.fixedY = y;
-        this.speed = 0.1;
+        this.speed = 0.07;
         this.cur = index;
-        this.max = Math.random() * 100 + 150;
+        this.max = Math.random() * 10 + 150;
     }
 
     update() {
