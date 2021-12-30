@@ -1,30 +1,20 @@
-* {
-  box-sizing: border-box;
-}
-
 .mainposter {
+  margin-top: 3%;
   top: 0;
   margin-left: 10vw;
   width: 80vw;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 
 }
 
-.mainposter img {
-  margin-left: 20%;
-  width: 60%;
+.mainposter img{
+  width: 50%;
+  margin-left: 25%;
 }
 
-
-.appcontainer {
-  font-family: proxima-nova, sans-serif;
-font-weight: 400;
-  width: 100%;
-  padding-bottom: 10%;
-}
 
 .approwtitle {
-  top: 0;
+  position: relative;
 
 }
 
@@ -32,12 +22,22 @@ font-weight: 400;
     margin-left: 10vw;
   font-family: proxima-nova, sans-serif;
     font-weight: 600;
-    font-size: 3em;
+    font-size: 4vw;
     padding-top: 4%;
     padding-bottom: 0;
     margin-bottom: 0;
 
 }
+.figmaimages {
+  float: left;
+  display: relative;
+}
+
+.album {
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
 
 .approwtitle .subheading{
     margin-left: 10vw;
@@ -45,7 +45,7 @@ font-weight: 400;
     padding-top: 1vw;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 1.5vw;
 
 }
 
@@ -65,9 +65,8 @@ font-weight: 400;
 
 .approwdescription .left .box1 {
   float: left;
-    aspect-ratio: 16/9;
+  height: 100pt;
   width: 50%;
-  border: none;
 }
 
 
@@ -75,7 +74,7 @@ font-weight: 400;
     margin-left: 0;
   font-family: proxima-nova, sans-serif;
     font-weight: 600;
-    font-size: 0.8em;
+    font-size: 1.1vw;
 
 }
 
@@ -83,7 +82,7 @@ font-weight: 400;
     margin-top: 0;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.2vw;
 
 }
 
@@ -97,7 +96,6 @@ font-weight: 400;
    margin-right: 0;
    width: 100%;
 }
-
 
 hr {
   margin-left: 10vw;
