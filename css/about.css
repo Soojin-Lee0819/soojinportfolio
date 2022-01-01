@@ -35,30 +35,36 @@ margin-left: 20vw;
 border-radius: 50%;
   background-color: #FFD057;
   z-index: -999;
-  margin-left: 20vw;
+  margin-left: 17vw;
     margin-top: 2vw;
 }
 
 .circle {
   position: absolute;
-  width: 30vw;
-  height: 30vw;
+  width: 25vw;
+  height: 25vw;
 border-radius: 10% 30% 50% 70%;
   background-color: #E75C40;
   z-index: -999;
-  margin-left: 20vw;
+  margin-left: 17vw;
     margin-top: 20vw;
+}
+
+.soojinWhite {
+  position: absolute;
+  margin-left: 22vw;
+    margin-top: 24vw;
 }
 
 .circle-blue {
   position: absolute;
-  width: 15vw;
-  height: 15vw;
-border-radius: 50% 50% 10% 10%;
+  width: 10vw;
+  height: 5vw;
+border-radius: 10vw 10vw 0% 0vw;
   background-color: #5B6399;
   z-index: -999;
-left: 0vw;
-    margin-top: 60vw;
+left: 35vw;
+  bottom: 0;
 }
 
 
@@ -102,11 +108,14 @@ ul{
 }
 
 .left-1 img{
+  position: absolute;
 margin: 0 auto;
-width: 40%;
-margin-left: 30%;
+width: 20%;
+margin-left: 3%;
 height: auto;
+opacity: 1;
 bottom: 0;
+margin-top: 30%;
 }
 
 

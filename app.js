@@ -80,10 +80,9 @@ t3.fromTo(".yellowimg", {opacity:0}, {opacity:1, ease:Power2.easeInOut,duration:
 const t0 = gsap.timeline({ defaults: { ease: "power1.out" } });
 
 t0.fromTo(".soojinlogo", {  opacity:0}, { opacity: 1,ease:Power2.easeInOut,duration: 1});
-t0.fromTo(".soojinlogo", {  y: "-50%" }, { y: "-5%",ease:Power2.easeInOut,duration: 2},"-0.5");
+t0.fromTo(".soojinlogo", {  y: "-20%" }, { y: "-5%",ease:Power2.easeInOut,duration: 1},"-0.5");
 t0.fromTo(".soojinlogo", {   opacity:1}, { opacity: 0,ease:Power2.easeInOut,duration: 1});
 t0.fromTo(".about", { opacity:0}, {  opacity: 1,ease:Power2.easeInOut,duration: 1});
-
 
 
 
