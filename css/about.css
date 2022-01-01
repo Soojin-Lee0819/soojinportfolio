@@ -1,78 +1,116 @@
+
+.aboutme {
+  margin-top: 10vw;
+}
+
 .container1 {
   float: left;
-  margin: 4vw;
+  margin-left: 4vw;
+    margin-right: 4vw;
   width: 92vw;
-  display: flex;
-}
-
-
-
-
-/*Container 1 */
-
-.container0 {
   position: relative;
-   height: 40vw;
-   margin-left: 10%;
-  width: 80%;
-
-
 }
 
-.soojin {
+
+.container1-2 {
+  float: left;
+  margin-left: 4vw;
+    margin-right: 4vw;
+  width: 92vw;
+  position: relative;
+}
+
+.soojinlogo {
   position: absolute;
-    left: 50%;
-width: 20%;
+margin-left: 20vw;
+  width: 50vw;
+  margin-top: 3vw;
+  z-index: -2;
 
 }
+.circle-yellow {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+border-radius: 50%;
+  background-color: #FFD057;
+  z-index: -999;
+  margin-left: 20vw;
+    margin-top: 2vw;
+}
 
-.soojin img{
+.circle {
+  position: absolute;
+  width: 30vw;
+  height: 30vw;
+border-radius: 10% 30% 50% 70%;
+  background-color: #E75C40;
+  z-index: -999;
+  margin-left: 20vw;
+    margin-top: 20vw;
+}
+
+.circle-blue {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+border-radius: 50% 50% 10% 10%;
+  background-color: #5B6399;
+  z-index: -999;
+left: 0vw;
+    margin-top: 60vw;
+}
+
+
+.about {
   width: 100%;
-
+    display: flex;
+     opacity: 1;
 }
 
 
-.project {
-      margin-top: 23%;
-            left: 33.5%;
-            width: 36%;
-    position: absolute;
-}
-
-.project img {
-  width: 100%;
-}
-
-
-.yellow {
-            left: 33.5%;
-            width: 15%;
-    position: absolute;
-}
-
-.yellow img {
-  width: 100%;
-}
-
-
-
-
-.left {
-  display: flex;
+.left-1 {
     width: 50%;
   justify-content: center;
+  font-family: proxima-nova, sans-serif;
+   font-weight: 200;
+  font-size: 1.5vw;
+   align-content: center;
+}
 
+.container1 .left-1 {
+}
+
+.question{
+  margin-top: 30%;
+  display: flex;
+width: 90%;
+height: 50%;
+  background-color: #E75C40;
+}
+
+.looking {
+  text-align: right;
 }
 
 
-.left img{
+ul{
+    font-family: proxima-nova, sans-serif;
+   font-weight: 200;
+  font-size: 1.5vw;
+
+}
+
+.left-1 img{
 margin: 0 auto;
 width: 40%;
+margin-left: 30%;
+height: auto;
+bottom: 0;
 }
 
 
-.right {
-  display: flex;
+.right-1 {
   align-items: center;
   width: 50%;
 
@@ -82,20 +120,28 @@ width: 40%;
   margin: 0 auto;
   width: 70%;
 
-
 }
 
 h1 {
     font-size: 2.6vw;
   font-family: proxima-nova, sans-serif;
    font-weight: 400;
+   margin-bottom: 2vw;
 }
 
 .txt-rotate {
     font-family: proxima-nova, sans-serif;
    font-weight: 400;
-  color: #AF5D40;
+  color: white;
 
+}
+
+
+.container1 .text1 {
+  font-family: proxima-nova, sans-serif;
+   font-weight: 200;
+  font-size: 1.5vw;
+   padding-top: 20%;
 }
 
 
@@ -103,9 +149,7 @@ h1 {
   font-family: proxima-nova, sans-serif;
    font-weight: 200;
   font-size: 1.5vw;
-   font-weight:lighter;
 }
-
 
 
 /*
@@ -127,6 +171,7 @@ h1 {
 */
 
 .container2{
+  margin-top: 10vw;
    background-color: #f2f2f2;
     float: left;
 padding: 4vw;
@@ -149,14 +194,6 @@ h2 {
     font-weight: 200;
   line-height: 1vw;
 }
-
-
-canvas {
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-}
-
 
 
 @media screen and (max-width: 600px) {

@@ -2,7 +2,7 @@
   position: absolute;
   right: 34vw;
  width: 30vw;
- bottom: 10vw;
+ bottom: 7vw;
  z-index: -6;
 }
 
@@ -14,17 +14,23 @@
   width: 92vw;
   margin-left: 4vw;
   height: 50vw;
-  z-index: -2;
+  z-index: 2;
   
 }
 
 
-
+.circle {
+  position: absolute;
+  width: 35vw;
+  height: 35vw;
+  border-radius:  50%;
+  background-color: #E75C40;
+  margin-left: 8vw;
+}
 .container1 {
   position: relative;
   width: 100%;
   height: 40vw;
-  align-items: flex;
 }
 
 .container1 .introduction {
@@ -35,25 +41,27 @@
 }
 
 .container1 .introduction .homeleft {
-  margin-left: 4vw;
+  margin-left: 4.3vw;
   position: absolute;
   justify-items: center;
   border-top-right-radius: 45vw;
   width: 66vw;
   height: 100%;
+  
 }
 
 
 .container1 .homeleft #text1 {
-  margin-top: 15%;
-  margin-left: 17%;
+      text-align: center;
+  margin-top: 13%;
+  margin-left: 18%;
   max-width: 50%;
   text-align: left;    
-  color: white;
+    color: white;
     flex: left;
     font-family: proxima-nova, sans-serif bold;
       font-weight: 700;
-    font-size: 5vw;
+    font-size: 4vw;
 
 }
 
@@ -65,10 +73,12 @@
 
 
 .container1 .homeleft #text2 {
-    color: white;
+    text-align: center;
+    color: #323232;
     margin-top: 2%;
-      margin-left: 17%;
-        max-width: 55%;
+      margin-left: 11%;
+        max-width: 42%;
+        color: white;
     font-family: proxima-nova, bold;
     font-weight: 400;
     font-size: 1.4vw;
@@ -84,23 +94,20 @@
   position: absolute;
 
   z-index: 9999;
-  right: 10vw;
+  right: 15vw;
  width: 20vw;
  bottom: 0;
 }
 
-#fullname2 {
+.container1 .source { 
+  position: aboslute;
+   margin-left: 7vw;
   position: absolute;
-  right: 4vw;
-width: 8vw;
- bottom: 16vw;
-}
-
-#fullname3 {
-  position: absolute;
-  right: 12vw;
-width: 8vw;
- bottom: 24vw;
+     font-family: proxima-nova;
+     color: white;
+    font-weight: 400;
+    font-size: 1vw;
+bottom: 0;
 }
 
 
@@ -157,13 +164,55 @@ width: 8vw;
 
 }
 
+/*Arrow */
+
+.arrowContainer {
+    background-color: white;
+}
+
+.arrowContainer .arrow{
+    position: absolute; 
+    margin-top: 2vw;
+    left: 50%;
+    opacity: 0;
+}
 
 
+.arrow span{
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 2px solid #E75C40;
+    border-right: 2px solid #E75C40;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-15px,-15px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(15px,15px);
+    }
+}
 
 
 /*Container 2 */
 
 .container2 {
+      background-color: white;
   width: 100%;
   margin-top: 15vw;
     margin-bottom: 15vw;

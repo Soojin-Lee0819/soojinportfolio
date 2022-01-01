@@ -24,7 +24,7 @@ class App {
         this.stageHeight = document.body.clientHeight;
 
         this.canvas.width = this.stageWidth * 2;
-        this.canvas.height = this.stageHeight * 2;
+        this.canvas.height = this.stageHeight * 1.4;
         this.ctx.scale(2, 2);
 
         this.waveGroup.resize(this.stageWidth, this.stageHeight);
@@ -52,7 +52,7 @@ class Wave {
         this.stageHeight = stageHeight;
 
         this.centerX = stageWidth / 2;
-        this.centerY = stageHeight/2.5;
+        this.centerY = stageHeight/2;
 
         this.pointGap = this.stageWidth / (this.totalPoints - 1);
 
@@ -99,11 +99,11 @@ class Wave {
 class Point {
     constructor(index, x, y) {
         this.x = x;
-        this.y = y;
-        this.fixedY = y;
-        this.speed = 0.07;
+        this.y = y*1.4;
+        this.fixedY = y*1.2;
+        this.speed = 0.01;
         this.cur = index;
-        this.max = Math.random() * 10 + 150;
+        this.max = Math.random() * 7 + 150;
     }
 
     update() {
@@ -114,10 +114,10 @@ class Point {
 
 class WaveGroup {
     constructor() {
-        this.totalWaves = 2;
+         this.totalWaves = 2;
         this.totalPoints = 6;
 
-        this.color = ['rgba(255,0,0,0.2)', 'rgba(0,0,255,0.2)', 'rgba(0,255,0,0.2)'];
+        this.color = ['rgba(255,208,87,0.3)','rgba(0,0,255,0.3)'];
 
         this.waves = [];
 

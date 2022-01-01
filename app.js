@@ -16,10 +16,14 @@ tl.fromTo(".name8", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
 tl.fromTo(".name9", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
 tl.fromTo(".cardBack", { opacity:1}, { opacity:0, duration: 0.1});
 tl.fromTo(".cardBack", { x: "0%" }, { x: "-300%", duration: 0.001});
-tl.to(".introduction",{ opacity:1});
-tl.fromTo(".homeleft", {  x: "-120%" }, { x: "0",duration: 0.3},"-=0.3");
-tl.fromTo("#soojinprofile", { opacity:0 }, { opacity:1,duration: 0.3},"-=0.1");
-tl.fromTo("#text1, #text2", {  opacity:0 }, { opacity:1,duration: 0.3});
+tl.fromTo(".introduction", {opacity:0 }, { opacity:1, duration: 0.01});
+tl.fromTo("#myCanvas", {opacity:0 }, { opacity:1, duration: 0.0001});
+tl.fromTo(".arrow", {opacity:0 }, { opacity:1, duration: 0.0001});
+tl.fromTo("#soojinprofile", { opacity:0 }, { opacity:1,duration: 0.3});
+tl.fromTo(".circle", {  y: "12%" }, { y: "0",duration: 1});
+tl.fromTo(".circle", {   opacity:0 }, { opacity:1,duration: 1},"-=1");
+tl.fromTo(".source", {  opacity:0 }, { opacity:1,duration: 0.3},"-=1");
+tl.fromTo("#text1, #text2", {  opacity:0 }, { opacity:1,duration: 0.3},"-=0.3");
 done = true;
 
 tl.fromTo(".span1",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1});
@@ -64,14 +68,27 @@ t2.fromTo(".soojin", {  y: "-40%" }, { y: "0",ease:Power2.easeInOut,duration: 1}
 t2.fromTo(".soojin", { opacity:0.6}, {  opacity: 1,ease:Power2.easeInOut,duration: 1},"-=1");
 
 
+
+
 const t3 = gsap.timeline({ defaults: { ease: "power1.out" } });
 
 t3.fromTo(".projectimg", { y:"-10%", opacity:0}, { y:"0%", opacity:1, ease:Power2.easeInOut,duration: 1});
 t3.fromTo(".yellowimg", {opacity:0}, {opacity:1, ease:Power2.easeInOut,duration: 1});
 
 
+
+const t0 = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+t0.fromTo(".soojinlogo", {  opacity:0}, { opacity: 1,ease:Power2.easeInOut,duration: 1});
+t0.fromTo(".soojinlogo", {  y: "-50%" }, { y: "-5%",ease:Power2.easeInOut,duration: 2},"-0.5");
+t0.fromTo(".soojinlogo", {   opacity:1}, { opacity: 0,ease:Power2.easeInOut,duration: 1});
+t0.fromTo(".about", { opacity:0}, {  opacity: 1,ease:Power2.easeInOut,duration: 1});
+
+
+
+
 function name1() {
-  document.getElementById("text2").innerHTML = "also a playful person specializing in having fun, <br> creating delightful experiences, and sharing with others."
+  document.getElementById("text2").innerHTML = "also a playful person specializing in having fun, creating delightful experiences, and sharing with others."
 }
 
 function name2() {
