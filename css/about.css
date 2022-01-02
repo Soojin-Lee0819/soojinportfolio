@@ -67,6 +67,13 @@ left: 35vw;
   bottom: 0;
 }
 
+.highlight {
+background: url(https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+background-repeat: no-repeat;
+background-size: 100% 80%;
+padding: 0.2vw, 0;
+font-weight: 400;
+}
 
 .about {
   width: 100%;
@@ -79,7 +86,7 @@ left: 35vw;
     width: 50%;
   justify-content: center;
   font-family: proxima-nova, sans-serif;
-   font-weight: 200;
+   font-weight: 400;
   font-size: 1.5vw;
    align-content: center;
 }
@@ -150,7 +157,6 @@ h1 {
   font-family: proxima-nova, sans-serif;
    font-weight: 200;
   font-size: 1.5vw;
-   padding-top: 20%;
 }
 
 
@@ -158,6 +164,7 @@ h1 {
   font-family: proxima-nova, sans-serif;
    font-weight: 200;
   font-size: 1.5vw;
+  padding-top: 5%;
 }
 
 
@@ -193,8 +200,16 @@ padding: 4vw;
   width: 25%;
 }
 
+.container-gallery {
+
+  
+
+}
+
 h2 {
     font-size: 1.5vw;
+ font-weight: 200;
+    color: grey;
 
 }
 
