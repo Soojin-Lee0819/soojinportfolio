@@ -214,6 +214,13 @@ padding: 4vw;
 
 }
 
+.column h2 {
+      font-size: 1.2vw;
+    font-weight: 400;
+  line-height: 1.2vw;
+
+}
+
 .column p {
     font-size: 1vw;
     font-weight: 200;
