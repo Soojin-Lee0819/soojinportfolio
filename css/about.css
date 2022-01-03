@@ -11,7 +11,23 @@
   position: relative;
 }
 
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vw 15vw;
+}
 
+/* Create four equal columns that sits next to each other */
+.gallery-column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 .container1-2 {
   float: left;
   margin-left: 4vw;
@@ -229,6 +245,11 @@ padding: 4vw;
 
 
 @media screen and (max-width: 600px) {
+
+    .gallery-column {
+    flex: 100%;
+    max-width: 100%;
+  }
 
 .container2{
    background-color: #f2f2f2;
