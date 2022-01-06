@@ -231,18 +231,28 @@ padding: 4vw;
 }
 
 .column h2 {
-      font-size: 1.2vw;
+      font-size: 1.1em;
     font-weight: 400;
-  line-height: 1.2vw;
+  line-height: 1.2em;
 
 }
 
 .column p {
-    font-size: 1vw;
+    font-size: 0.9em;
     font-weight: 200;
-  line-height: 1vw;
+
+  line-height: 1em;
 }
 
+
+@media screen and (max-width: 800px) {
+
+
+  .column {
+      position: relative;
+  width: 50%;
+}
+}
 
 @media screen and (max-width: 600px) {
 
@@ -265,9 +275,7 @@ padding: 4vw;
 }
 
 .column p {
-    font-size: 1v;
-    font-weight: 200;
-  line-height:0;
+
 }
 
 
