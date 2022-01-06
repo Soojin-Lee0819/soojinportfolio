@@ -14,35 +14,14 @@ tl.fromTo(".name6", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
 tl.fromTo(".name7", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
 tl.fromTo(".name8", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
 tl.fromTo(".name9", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
-tl.fromTo(".cardBack", { opacity:1}, { opacity:0, duration: 0.1});
-tl.fromTo(".cardBack", { x: "0%" }, { x: "-300%", duration: 0.001});
-tl.fromTo(".introduction", {opacity:0 }, { opacity:1, duration: 0.01});
-tl.fromTo("#myCanvas", {opacity:0 }, { opacity:1, duration: 0.0001});
+tl.fromTo(".cardBack", { opacity:1}, { opacity:0, duration: 0.5});
+tl.fromTo("#myCanvas", {opacity:0 }, { opacity:1, duration: 1.5},"-=0.5");
 tl.fromTo(".arrow", {opacity:0 }, { opacity:1, duration: 0.0001});
-tl.fromTo("#soojinprofile", { opacity:0 }, { opacity:1,duration: 0.3});
-tl.fromTo(".circle", {  y: "12%" }, { y: "0",duration: 1});
-tl.fromTo(".circle", {   opacity:0 }, { opacity:1,duration: 1},"-=1");
-tl.fromTo(".source", {  opacity:0 }, { opacity:1,duration: 0.3},"-=1");
-tl.fromTo("#text1, #text2", {  opacity:0 }, { opacity:1,duration: 0.3},"-=0.3");
+tl.fromTo("#soojinprofile", { opacity:0 }, { opacity:1,duration: 1.5},"-=1.5");
+tl.fromTo(".source", {  opacity:0 }, { opacity:1,duration: 1.5},"-=1.5");
+tl.fromTo("#text1, #text2", {  opacity:0 }, { opacity:1,duration: 1.5},"-=1.5");
 done = true;
 
-tl.fromTo(".span1",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1});
-
-tl.fromTo(".span2",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1},"-=0.9");
-
-tl.fromTo(".span3",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1},"-=0.9");
-
-tl.fromTo(".span4",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1},"-=0.9");
-
-tl.fromTo(".span5",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1},"-=0.9");
-
-tl.fromTo(".span6",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1},"-=0.9");
-
-tl.fromTo(".span7",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1},"-=0.9");
-
-tl.fromTo(".span8",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1},"-=0.9");
-
-tl.fromTo(".span9",{yPercent:-30, ease:Power2.easeInOut}, {yPercent:0, ease:Power2.easeInOut, duration: 1},"-=0.9");
 };
 
 
@@ -63,7 +42,6 @@ t4.fromTo(".ima9", { rotateY: 0}, { rotateY: 360, duration: 1},"-=0.95");
 
 
 const t2 = gsap.timeline({ defaults: { ease: "power1.out" } });
-
 t2.fromTo(".soojin", {  y: "-40%" }, { y: "0",ease:Power2.easeInOut,duration: 1});
 t2.fromTo(".soojin", { opacity:0.6}, {  opacity: 1,ease:Power2.easeInOut,duration: 1},"-=1");
 
@@ -85,14 +63,6 @@ t0.fromTo(".soojinlogo", {   opacity:1}, { opacity: 0,ease:Power2.easeInOut,dura
 t0.fromTo(".about", { opacity:0}, {  opacity: 1,ease:Power2.easeInOut,duration: 1});
 
 
-
-function name1() {
-  document.getElementById("text2").innerHTML = "also a playful person specializing in having fun, creating delightful experiences, and sharing with others."
-}
-
-function name2() {
-  document.getElementById("text2").innerHTML = "An Interactive designer/developer specializing in providing technology-powered design solutions to complex problems."
-}
 
 var element = document.querySelector('h1');
 

@@ -7,5 +7,5 @@
 
 
     document.getElementById("visitweb").onclick = function () {
-        location.href = "https://hallpass.games";
+        location.href = "https://www.youtube.com/watch?v=cjIv7ut14Wk";
     };
