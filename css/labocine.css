@@ -57,7 +57,7 @@
 
 .approwdescription .left .box1 {
   float: left;
-  height: 100pt;
+aspect-ratio: 16/9;
   width: 50%;
 }
 
@@ -262,56 +262,7 @@ margin-top: 2%;
 
 @media screen and (max-width: 600px) {
 
-  .container1{
-    margin-bottom: 10vw;
-  }
-
-.container1 .left {
-    display: relative;
-    min-width: 100%;
-}
-
-.left img {
-  width: 60%;
-  height: auto;
-}
-
-
-
-.right {
-  margin-left: 0;
-  margin-top: 5%;
-      min-width: 100%;
-
-  }
-
-
-.container1 .textbox {
-margin-top: 8%;
-margin-left: 0;
-}
-
-
-
-.title {
-   font-size: 6vw;
-   margin-left: 4vw;
-}
-
-.description {
-       margin-left: 4vw;
-    font-size: 2.4vw;
-    width: 70%;
-
-}
-
-.subheading{
-     margin-left: 4vw; color: #808080;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
-    font-size: 2.2vw;
-
-}
+  
 
 .click {
   margin-left: 4vw;

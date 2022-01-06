@@ -65,7 +65,7 @@
 
 .approwdescription .left .box1 {
   float: left;
-  height: 100pt;
+    aspect-ratio: 16/9;
   width: 50%;
 }
 

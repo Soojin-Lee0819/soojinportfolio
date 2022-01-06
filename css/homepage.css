@@ -51,10 +51,10 @@
 
 
 .container1 .homeleft #text1 {
-      text-align: center;
-  margin-top: 7%;
+  text-align: center;
+  margin-top: 12%;
   margin-left: 20%;
-  max-width: 50%;
+  max-width: 55%;
   text-align: left;    
     color: #303337;
     flex: left;
@@ -65,6 +65,9 @@
 }
 .dot {
   color: #E75C40;
+     font-family: proxima-nova, sans-serif;
+          font-weight: 700;
+
 }
 
 #text1 span {
@@ -78,7 +81,7 @@
     color: #323232;
     margin-top: 2%;
       margin-left: 20%;
-        max-width: 58%;
+        max-width: 50%;
         color: #303337;
     font-family: proxima-nova, bold;
     font-weight: 400;
@@ -95,9 +98,9 @@
   position: absolute;
 
   z-index: 9999;
-  right: 12vw;
- width: 19vw;
- bottom: 0;
+  right: 20vw;
+ width: 25vw;
+ bottom: 5vw;
 }
 
 .source { 
