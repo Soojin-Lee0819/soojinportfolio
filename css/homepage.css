@@ -50,9 +50,9 @@
 }
 
 
-.container1 .homeleft #text1 {
+.container1 .homeleft #text2 {
   text-align: center;
-  margin-top: 12%;
+  margin-top: 2%;
   margin-left: 20%;
   max-width: 55%;
   text-align: left;    
@@ -60,13 +60,14 @@
     flex: left;
     font-family: proxima-nova, sans-serif bold;
       font-weight: 700;
-    font-size: 4vw;
+    font-size: 3.2vw;
 
 }
 .dot {
   color: #E75C40;
      font-family: proxima-nova, sans-serif;
           font-weight: 700;
+          font-size: 3.2vw;
 
 }
 
@@ -77,15 +78,15 @@
 
 
 
-.container1 .homeleft #text2 {
+.container1 .homeleft #text1 {
     color: #323232;
-    margin-top: 2%;
+    margin-top: 5%;
       margin-left: 20%;
         max-width: 50%;
         color: #303337;
     font-family: proxima-nova, bold;
     font-weight: 400;
-    font-size: 1.4vw;
+    font-size: 1.6vw;
     margin-bottom: 0;
 
 }
